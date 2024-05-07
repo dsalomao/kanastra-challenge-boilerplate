@@ -89,9 +89,12 @@ bun run dev
 `
     or
 
-                ```sh
-                npm run dev:node
-                ```
+                    ```sh
+                    npm run dev:node
+                    ```
+
+4.  Observations
+    Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
 
             <!-- MARKDOWN LINKS & IMAGES -->
             <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -106,6 +109,3 @@ bun run dev
             [issues-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/issues
             [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
             [linkedin-url]: https://www.linkedin.com/company/kanastra/
-
-4.  Observations
-    Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
