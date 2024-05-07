@@ -9,7 +9,7 @@
   <h3 align="center">Dasalomao Kanastra Chalenge - (React Front End)</h3>
 
   <p align="center">
-     This application is a boilerplate to make the frontend challenge more quickly.
+     This application is csv uploader and upload history observer.
     <br />
   </p>
 </p>
@@ -69,7 +69,7 @@ _(Recommended if you're using Windows without WSL)_
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate.git
+    git clone https://github.com/dsalomao/kanastra-challenge-boilerplate.git
     ```
 2.  Install the packages
 
@@ -85,24 +85,27 @@ _(Recommended if you're using Windows without WSL)_
 
 3.  With packages installed, run development command:
     `sh
-    bun run dev
-    `
+bun run dev
+`
     or
 
-        ```sh
-        npm run dev:node
-        ```
+                ```sh
+                npm run dev:node
+                ```
 
-    <!-- MARKDOWN LINKS & IMAGES -->
-    <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+            <!-- MARKDOWN LINKS & IMAGES -->
+            <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-    [contributors-shield]: https://img.shields.io/github/contributors/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-    [contributors-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/graphs/contributors
-    [forks-shield]: https://img.shields.io/github/forks/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-    [forks-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/network/members
-    [stars-shield]: https://img.shields.io/github/stars/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-    [stars-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/stargazers
-    [issues-shield]: https://img.shields.io/github/issues/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-    [issues-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/issues
-    [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-    [linkedin-url]: https://www.linkedin.com/company/kanastra/
+            [contributors-shield]: https://img.shields.io/github/contributors/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+            [contributors-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/graphs/contributors
+            [forks-shield]: https://img.shields.io/github/forks/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+            [forks-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/network/members
+            [stars-shield]: https://img.shields.io/github/stars/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+            [stars-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/stargazers
+            [issues-shield]: https://img.shields.io/github/issues/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+            [issues-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/issues
+            [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+            [linkedin-url]: https://www.linkedin.com/company/kanastra/
+
+4.  Observations
+    Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
