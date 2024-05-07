@@ -89,23 +89,23 @@ bun run dev
 `
     or
 
-                    ```sh
-                    npm run dev:node
-                    ```
+                        ```sh
+                        npm run dev:node
+                        ```
 
 4.  Observations
     Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
 
-            <!-- MARKDOWN LINKS & IMAGES -->
-            <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-            [contributors-shield]: https://img.shields.io/github/contributors/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-            [contributors-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/graphs/contributors
-            [forks-shield]: https://img.shields.io/github/forks/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-            [forks-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/network/members
-            [stars-shield]: https://img.shields.io/github/stars/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-            [stars-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/stargazers
-            [issues-shield]: https://img.shields.io/github/issues/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
-            [issues-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/issues
-            [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-            [linkedin-url]: https://www.linkedin.com/company/kanastra/
+[contributors-shield]: https://img.shields.io/github/contributors/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+[contributors-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+[forks-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/network/members
+[stars-shield]: https://img.shields.io/github/stars/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+[stars-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Kanastra-Tech/kanastra-challenge-boilerplate.svg?style=for-the-badge
+[issues-url]: https://github.com/Kanastra-Tech/kanastra-challenge-boilerplate/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/company/kanastra/
