@@ -85,17 +85,17 @@ _(Recommended if you're using Windows without WSL)_
 
 3.  With packages installed, run development command:
     `sh
-	bun run dev
+bun run dev
 `
     or
 
-            ```sh
-            npm run dev:node
-            ```
+    ```sh
+    npm run dev:node
+    ```
 
 4.  Observations
     ```
-    	Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
+    Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
     ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
