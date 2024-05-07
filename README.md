@@ -89,12 +89,12 @@ _(Recommended if you're using Windows without WSL)_
 `
     or
 
-    ```sh
-    npm run dev:node
-    ```
+        ```sh
+        npm run dev:node
+        ```
 
 4.  Observations
-    Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts
+    `Depending on your laravel back-end environment you may need to change the 'baseUrl' property inside src/components/composables/use-api.ts`
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
